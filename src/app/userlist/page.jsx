@@ -1,16 +1,16 @@
 //"use client"
 import Link from "next/link";
 import DeleteUser from "@/lib/DeleteUser"
-//import { useRouter } from "next/navigation";
+
 
 const getusers = async ()=> {
- //const router = useRouter();
+
    
     let data = await fetch("http://localhost:3000/api/users",{cache:"no-cache"} );//
     data = await data.json();
     if(data.success){
         return data.result;  
-       //router.refresh();
+       
     }else{
         return {success:false}
     }
@@ -22,7 +22,7 @@ export default async function Userlist(){
     return <>
    
     <div className="container  m-auto">
-    <Link href="/contact"><button className="btn btn-primary mt-3">GO Back</button></Link>
+
     <h1 className="text-center">List OF Users</h1>
 
     <table class="table border">

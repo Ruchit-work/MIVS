@@ -1,10 +1,10 @@
 "use client"
 import React,{ useEffect, useState } from "react";
 import Link from "next/link";
-//import { useRouter } from "next/navigation";
+
 
 export default function Page(props) {
-  //  const router = useRouter();
+
     const [name, setName] = useState(""); 
     const [email, setEamil] = useState(""); 
     const [age, setAge] = useState(""); 
@@ -24,8 +24,7 @@ export default function Page(props) {
              setEamil(Result.email); 
              setAge(Result.age);
              setPhone(Result.phone);
-            setAddress(Result.address)
-    //    router.refresh();     
+            setAddress(Result.address)   
     }
     async function updateUser(){
             

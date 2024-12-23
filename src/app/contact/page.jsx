@@ -15,7 +15,7 @@ export default function Contact() {
         body:JSON.stringify({name,email,age,phone,address})
     }) 
    result =await result.json()
-   if(result.success){
+   if(result.ok){
     alert("Your Resquest Has been Submited");
    }
 }
@@ -68,7 +68,7 @@ export default function Contact() {
             </div>
             <div>
             
-            <Link href="/userlist"><button className="btn btn-success">User list</button></Link>
+
             </div>
             <div className="row ">
                 <div className="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
