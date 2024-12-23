@@ -1,5 +1,5 @@
 "use client"
-import React,{ useEffect, useState } from "react";
+import React,{ useState } from "react";
 import Link from "next/link";
 
 
@@ -10,10 +10,10 @@ export default function Page(props) {
     const [age, setAge] = useState(""); 
     const [phone, setPhone] = useState(""); 
     const [address, setAddress] = useState("");  
-    useEffect(()=>{
-         getUserDetails()
-       
-    },[]);
+
+    useEffect(() => {
+        getUserDetails();
+      }, [props.params.edituser]); 
 
     async function getUserDetails(){
          let userid=props.params.edituser
@@ -29,12 +29,19 @@ export default function Page(props) {
     async function updateUser(){
             
             let userid=props.params.edituser
-            let data= await fetch("http://localhost:3000/api/users/"+userid,{
+            let response = await fetch("http://localhost:3000/api/users/"+userid,{
                 method:"PUT",
+                headers: {
+                    "Content-Type": "application/json", // Make sure to set the Content-Type header
+                  },
                 body:JSON.stringify({name,email,age,phone,address})
             } );
-            alert("record  has been updated");
-            data=await data.json();
+            const data = await response.json();
+                if (data.success) {
+                alert("Record has been updated");
+                } else {
+                alert("Failed to update record");
+                }
     }
    
     return  <>

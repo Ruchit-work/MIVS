@@ -13,7 +13,7 @@ export default function Navbar(){
         setScroll(window.scrollY > 50);
       });
     }, []);
-    let scrollCheck = scroll ? "sticky-top " : "null";
+    const scrollCheck = scroll ? "sticky-top " : "null";
   
     return<>
      

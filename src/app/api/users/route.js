@@ -13,6 +13,7 @@ export async function GET() {
     catch (error){
             data={result:"error"}
             success=false
+            console.error("issue",error);
     }
     return NextResponse.json({result:data,success})
 }

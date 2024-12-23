@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+
 import Script from "next/script";
 import About from "./about/page";
 import OurSevice from "./ourService/page"

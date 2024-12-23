@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import { NextResponse } from "next/server";
-import bcrypt from "bcrypt";
 import { Admin } from "../../../lib/model/admin";
 import { MONGO_URL } from "@/lib/db";
 

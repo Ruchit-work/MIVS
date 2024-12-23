@@ -38,8 +38,7 @@ export default function RootLayout({
             <footer>
                 <Footer />
             </footer>
-            <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-            <script src="https://files.bpcontent.cloud/2024/10/30/07/20241030072821-EGSJY874.js"></script>  
+       
       </body>
     </html>
   );

@@ -6,7 +6,7 @@ import DeleteUser from "@/lib/DeleteUser"
 const getusers = async ()=> {
 
    
-    let data = await fetch("http://localhost:3000/api/users",{cache:"no-cache"} );//
+    let data = await fetch("http://localhost:3000/api/users",{cache:"no-cache"} );
     data = await data.json();
     if(data.success){
         return data.result;  
@@ -20,11 +20,8 @@ export default async function Userlist(){
      const users = await getusers();
     console.log(users)
     return <>
-   
     <div className="container  m-auto">
-
     <h1 className="text-center">List OF Users</h1>
-
     <table class="table border">
   <thead>
     <tr>
@@ -39,7 +36,7 @@ export default async function Userlist(){
   </thead>
   <tbody>
   {users.map((item)=>(
-        <tr>
+        <tr key={item._id}>
             <td>{item.name}</td>
             <td>{item.email}</td>
             <td>{item.age}</td>
