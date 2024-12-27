@@ -8,7 +8,7 @@ export default function About()
                 <div className="col-lg-7">
                     <div className="section-title position-relative pb-3 mb-5">
                         <h5 className="fw-bold text-primary text-uppercase">About Us</h5>
-                        <h1 className="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                        <h1 className="mb-0">The Best IT Solution With 2 Years of Experience</h1>
                     </div>
                     <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
                     <div className="row g-0 mb-3">
