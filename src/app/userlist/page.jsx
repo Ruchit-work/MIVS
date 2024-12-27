@@ -7,7 +7,6 @@ const getusers = async ()=> {
 
     try {
     let res = await fetch("http://localhost:3000/api/users",{cache:"no-cache"} );
-    data = await data.json();
     const data = await res.json();
     if (data.success) {
       return data.result;
