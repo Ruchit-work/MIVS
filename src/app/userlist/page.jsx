@@ -4,7 +4,6 @@ import DeleteUser from "@/lib/DeleteUser"
 
 
 const getusers = async ()=> {
-
     try {
     let res = await fetch("http://localhost:3000/api/users",{cache:"no-cache"} );
     const data = await res.json();

@@ -10,8 +10,9 @@ export default function LoginPage() {
     const router = useRouter();
 
     const handleLogin = async () => {
+        setIsLoading(true);
         try {
-            const response = await fetch("/api/admins", { // Ensure this is the correct relative path
+            const response = await fetch("/api/admins", { 
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
