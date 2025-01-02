@@ -23,7 +23,7 @@ export default function Home() {
             <OurSevice />
             <div id="contact">
                  <Contact />
-            </div>
+        </div>
         </div>
         
         <Script src="/demo.js"></Script>
