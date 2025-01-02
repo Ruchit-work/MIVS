@@ -9,7 +9,7 @@ export default function LoginPage() {
     const router = useRouter(); 
     const handleLogin = async () => {
         try {
-            const response = await fetch("http://localhost:3000/api/admins", {
+            const response = await fetch("/api/admins", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
