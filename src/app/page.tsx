@@ -3,7 +3,7 @@ import Script from "next/script";
 import About from "./about/page";
 import OurSevice from "./ourService/page"
 import Contact from "./contact/page";
-import Link from "next/link";
+
 import OurWork from "./ourWork/page";
 export default function Home() {
   return (
