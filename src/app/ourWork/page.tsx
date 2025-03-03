@@ -24,14 +24,14 @@ export default function OurWork() {
                         <p className="mr-2 mb-0  align-items-center">{openIndex === 0 ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}</p>
                     </div>
                     <div className={`accordion-content ${openIndex === 0 ? "open" : "closed"}`}>
-                        <div className=" row bg-white border-top align-items-center">
-                            <div className="col-md-6 p-3 ">
+                        <div className=" row bg-white border-top align-items-center scrollable-content">
+                            <div className="col-md-6 col-12  p-3 ">
                                 <h4> Overview:</h4>
                                 <p> JobHunt AI is an AI-driven job search platform that scrapes job postings from multiple websites and ranks them based on candidate profiles.
                                     It assigns a match score to each job based on skills, experience, and job description relevance.</p>
 
                             </div>
-                            <div className="col-md-6 mt-4">
+                            <div className="col-md-6 col-12 mt-4">
                                 <h4>🔥 Key Features:</h4>
                                 <ul className="text">
                                     <li>✅ <strong>Web Scraping</strong> – Fetches job listings from LinkedIn, Indeed, etc.</li>
@@ -55,7 +55,7 @@ export default function OurWork() {
                         <p className="mr-2 mb-0">{openIndex === 1 ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}</p>
                     </div>
                     <div className={`accordion-content ${openIndex === 1 ? "open" : "closed"}`}>
-                        <div className=" row bg-white border-top align-items-center">
+                        <div className=" row bg-white border-top align-items-center scrollable-content">
                             <div className="col-md-6 p-3 ">
                                 <h4> Overview:</h4>
                                 <p>InsightX is a dynamic analytics dashboard that allows users to build, customize, and automate reports for inventory,
@@ -86,7 +86,7 @@ export default function OurWork() {
                         <p className="mr-2 mb-0">{openIndex === 2 ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}</p>
                     </div>
                     <div className={`accordion-content ${openIndex === 2 ? "open" : "closed"}`}>
-                        <div className=" row bg-white border-top align-items-center">
+                        <div className=" row bg-white border-top align-items-center scrollable-content">
                             <div className="col-md-6 p-3 ">
                                 <h4> Overview:</h4>
                                 <p>TravelEase is a smart travel booking platform that helps users find, plan, and book trips effortlessly.
@@ -117,7 +117,7 @@ export default function OurWork() {
                         <p className="mr-2 mb-0">{openIndex === 3 ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}</p>
                     </div>
                     <div className={`accordion-content ${openIndex === 3 ? "open" : "closed"}`}>
-                        <div className=" row bg-white border-top align-items-center">
+                        <div className=" row bg-white border-top align-items-center scrollable-content">
                             <div className="col-md-6 p-3 ">
                                 <h4> Overview:</h4>
                                 <p> PolySpeak is an AI-powered multilingual solution that helps websites translate content dynamically into multiple languages while
@@ -151,7 +151,7 @@ export default function OurWork() {
                         <p className="mr-2 mb-0">{openIndex === 4 ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}</p>
                     </div>
                     <div className={`accordion-content ${openIndex === 4 ? "open" : "closed"}`}>
-                        <div className=" row bg-white border-top align-items-center">
+                        <div className=" row bg-white border-top align-items-center scrollable-content">
                             <div className="col-md-6 p-3 ">
                                 <h4> Overview:</h4>
                                 <p>WhatsQuery helps businesses search, filter, and analyze customer conversations from WhatsApp Business API. It allows real-time message tracking, AI-powered insights, and auto-generated reports.

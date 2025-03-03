@@ -722,4 +722,26 @@ input[type="email"] {
 
 
 
+/* Enable vertical scrolling for mobile screens */
+@media (max-width: 768px) {
+  .scrollable-content {
+      max-height: 200px; /* Adjust this height as needed */
+      overflow: scroll;
+      padding-right: 10px; /* Prevents text from being cut off */
+      margin-bottom: 10px; /* Ensures last content is visible */
+  }
 
+  /* Custom scrollbar styling */
+  .scrollable-content::-webkit-scrollbar {
+      width: 6px;
+  }
+
+  .scrollable-content::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 5px;
+  }
+
+  .scrollable-content::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+}
