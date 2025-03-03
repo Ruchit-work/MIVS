@@ -50,7 +50,8 @@ export default function Navbar(){
                 <div className="navbar-nav ms-auto py-0">
                     <Link href="/"><span className="nav-item nav-link active"> Home</span></Link> 
                     <Link href="/about"><span className="nav-item nav-link"> About</span></Link>
-                    <Link href="/ourService"><span className="nav-item nav-link"> Service</span></Link>              
+                    <Link href="/ourService"><span className="nav-item nav-link"> Service</span></Link>       
+                    <Link href="/ourWork"><span className="nav-item nav-link">Our Work </span></Link>          
                     <Link href="/contact"><span className="nav-item nav-link">Contact us</span></Link>   
                 </div>
             </div>
