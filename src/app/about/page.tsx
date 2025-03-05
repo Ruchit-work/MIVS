@@ -11,7 +11,11 @@ export default function About()
                         <h5 className="fw-bold text-primary text-uppercase">About Us</h5>
                         <h1 className="mb-0">The Best IT Solution With  Years of Experience</h1>
                     </div>
-                    <p className="mb-4 text-justify">MIVS Software is at the forefront of innovative IT solutions, leveraging years of industry experience to deliver: cutting-edge software products. Designed with precision and user-centricity, MIVS offers robust solutions that streamline operations, enhance productivity, and empower businesses to achieve their strategic objectives. Whether you're looking to optimize your workflows, secure your data, or expand your technological capabilities, MIVS Software is your trusted partner in navigating the complexities of the digital landscape.</p>
+                    <p className="mb-4 text-justify">MIVS Software is at the forefront of innovative IT solutions, leveraging years of industry experience to deliver:
+                         cutting-edge software products. Designed with precision and user-centricity, MIVS offers robust solutions that streamline operations, 
+                         enhance productivity, and empower businesses to achieve their strategic objectives. Whether you are looking to optimize your workflows, 
+                         secure your data, or expand your technological capabilities, MIVS Software is your trusted partner in navigating the complexities of the digital landscape.
+                         </p>
                     <div className="row g-0 mb-3">
                         <div className="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                             <h5 className="mb-3"><i className="fa fa-check text-primary me-3"></i>Award Winning</h5>
