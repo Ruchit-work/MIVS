@@ -3,7 +3,7 @@ export default function Footer(){
     return <>
     <div className="footer_decor mt-5">
         <div className="d-flex justify-content-between align-items-baseline">
-             <h6 className="text-white mb-0  footer_MIVS">© 2025 MIVS Softwares </h6>
+             <h6 className="text-white mb-0  ">© 2025 MIVS Softwares </h6>
             <div className="col-lg-4 text-center text-lg-end">
                 <div className="d-inline-flex align-items-center" style={{height: "45px"}}>
                     <a className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i className="fab fa-twitter fw-normal"></i></a>

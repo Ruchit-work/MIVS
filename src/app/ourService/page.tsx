@@ -10,7 +10,7 @@ export default function OurSevice() {
             </div>
         </div>
         <div className="row">
-            <div className="col-md-6 set_height">
+            <div className="col-lg-6 col-md-12 set_height">
               <div className="service_box row">
                   <div className="col-md-6 col-12">
                     <div className="text-center">
@@ -27,7 +27,7 @@ export default function OurSevice() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 set_height">
+            <div className="col-lg-6 col-md-12 set_height">
             <div className="service_box row">
                 <div className="col-md-6 col-12">
                   <h2 className="title">
@@ -44,7 +44,7 @@ export default function OurSevice() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 set_height">
+            <div className="col-lg-6 col-md-12 set_height">
               <div className="service_box row">
                   <div className="col-md-6 col-12">
                     <div className="text-center">
@@ -62,7 +62,7 @@ export default function OurSevice() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 set_height">
+            <div className="col-lg-6 col-md-12 set_height">
             <div className="service_box row">
             <div className="col-md-6 col-12">
                   <h2 className="title">
@@ -79,7 +79,7 @@ export default function OurSevice() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 set_height mx-auto">
+            <div className="col-lg-6 col-md-12 set_height mx-auto">
               <div className="service_box row">
                   <div className="col-md-6 col-12">
                     <div className="text-center">
