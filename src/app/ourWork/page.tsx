@@ -27,17 +27,17 @@ export default function OurWork() {
                         <div className=" row bg-white border-top align-items-center scrollable-content">
                             <div className="col-md-6 col-12  p-3 ">
                                 <h4> Overview:</h4>
-                                <p> JobHunt AI is an AI-driven job search platform that scrapes job postings from multiple websites and ranks them based on candidate profiles.
+                                <p> AI-driven job search platform that scrapes job postings from multiple websites and ranks them based on candidate profiles.
                                     It assigns a match score to each job based on skills, experience, and job description relevance.</p>
 
                             </div>
                             <div className="col-md-6 col-12 mt-4">
-                                <h4>🔥 Key Features:</h4>
+                                <h4>Key Features:</h4>
                                 <ul className="text">
-                                    <li>✅ <strong>Web Scraping</strong> – Fetches job listings from LinkedIn, Indeed, etc.</li>
-                                    <li>✅ <strong>AI-Powered Match Score</strong> – Uses NLP to analyze job descriptions & resumes</li>
-                                    <li>✅ <strong>Real-time Alerts</strong> – Sends new job matches via email/WhatsApp</li>
-                                    <li>✅ <strong>Custom Filters</strong> – Sort by location, salary, experience, remote vs on-site</li>
+                                    <li><strong>Web Scraping</strong> – Fetches job listings from LinkedIn, Indeed, etc.</li>
+                                    <li> <strong>AI-Powered Match Score</strong> – Uses NLP to analyze job descriptions & resumes</li>
+                                    <li><strong>Real-time Alerts</strong> – Sends new job matches via email/WhatsApp</li>
+                                    <li><strong>Custom Filters</strong> – Sort by location, salary, experience, remote vs on-site</li>
                                 </ul>
                             </div>
 
@@ -64,12 +64,12 @@ export default function OurWork() {
 
                             </div>
                             <div className="col-md-6 mt-4">
-                                <h4>🔥 Key Features:</h4>
+                                <h4> Key Features:</h4>
                                 <ul className="text">
-                                    <li>✅ <strong>Drag & Drop Custom Charts</strong> –Users can build real-time dashboards</li>
-                                    <li>✅ <strong> Multi-Source Data Integration</strong> –  Fetches data from APIs, databases, Excel, Google Sheets</li>
-                                    <li>✅ <strong>Automated Reports</strong> –Sends daily/weekly business insights to email/WhatsApp </li>
-                                    <li>✅ <strong> Predictive Analytics</strong> – Uses AI to forecast sales & stock trends </li>
+                                    <li> <strong>Drag & Drop Custom Charts</strong> –Users can build real-time dashboards</li>
+                                    <li> <strong>Automated Reports</strong> –Sends daily/weekly business insights to email/WhatsApp </li>
+                                    <li> <strong> Predictive Analytics</strong> – Uses AI to forecast sales & stock trends </li>
+                                    <li> <strong> Multi-Source Data Integration</strong> –  Fetches data from APIs, databases, Excel, Google Sheets</li>
                                 </ul>
                             </div>
 
@@ -95,12 +95,12 @@ export default function OurWork() {
 
                             </div>
                             <div className="col-md-6 mt-4">
-                                <h4>🔥 Key Features:</h4>
+                                <h4> Key Features:</h4>
                                 <ul className="text">
-                                    <li>✅ <strong>AI-PoweAI-Powered Trip Planner</strong> –  Suggests best flights, hotels, and attractions</li>
-                                    <li>✅ <strong> Dynamic Price Trackinge</strong> –  Alerts users when prices drop for flights & hotels </li>
-                                    <li>✅ <strong>Multi-Destination Itinerary Builder</strong> –Auto-generates optimized travel plans</li>
-                                    <li>✅ <strong>Real-Time Weather & Local Insights</strong> –Helps in better trip planning </li>
+                                    <li> <strong>AI-PoweAI-Powered Trip Planner</strong> –  Suggests best flights, hotels, and attractions</li>
+                                    <li> <strong> Dynamic Price Trackinge</strong> –  Alerts users when prices drop for flights & hotels </li>
+                                    <li> <strong>Multi-Destination Itinerary Builder</strong> –Auto-generates optimized travel plans</li>
+                                    <li> <strong>Real-Time Weather & Local Insights</strong> –Helps in better trip planning </li>
                                 </ul>
                             </div>
 
@@ -120,21 +120,18 @@ export default function OurWork() {
                         <div className=" row bg-white border-top align-items-center scrollable-content">
                             <div className="col-md-6 p-3 ">
                                 <h4> Overview:</h4>
-                                <p> PolySpeak is an AI-powered multilingual solution that helps websites translate content dynamically into multiple languages while
+                                <p>AI-powered multilingual solution that helps websites translate content dynamically into multiple languages while
                                     maintaining SEO optimization and cultural accuracy.
                                 </p>
 
                             </div>
                             <div className="col-md-6 mt-4">
-                                <h4>🔥 Key Features:</h4>
+                                <h4> Key Features:</h4>
                                 <ul className="text">
-                                    <li>✅ <strong> Instant AI-Powered Translation</strong> – Supports 100+ languages
-                                    </li>
-                                    <li>✅ <strong>SEO-Friendly Translations</strong> –  Generates localized URLs for better ranking</li>
-                                    <li>✅ <strong>Customizable Edits</strong> – Users can manually refine translations
-                                    </li>
-                                    <li>✅ <strong>Fast CDN Caching</strong> –  Ensures high-speed page load times
-                                    </li>
+                                    <li> <strong> Instant AI-Powered Translation</strong> – Supports 100+ languages </li>
+                                    <li> <strong>SEO-Friendly Translations</strong> –  Generates localized URLs for better ranking</li>
+                                    <li> <strong>Customizable Edits</strong> – Users can manually refine translations  </li>
+                                    <li> <strong>Fast CDN Caching</strong> –  Ensures high-speed page load times </li>
                                 </ul>
                             </div>
 
@@ -159,16 +156,12 @@ export default function OurWork() {
 
                             </div>
                             <div className="col-md-6 mt-4">
-                                <h4>🔥 Key Features:</h4>
+                                <h4> Key Features:</h4>
                                 <ul className="text">
-                                    <li>✅ <strong>Smart Search & Filters</strong> –  ENDkeywords, date, tags, sentiment
-                                    </li>
-                                    <li>✅ <strong>AI-PAI-Powered Insights</strong> –  Detects trends, complaints, and customer sentiment
-                                    </li>
-                                    <li>✅ <strong>Automated Reports </strong> – Sends daily/weekly chat summaries
-                                    </li>
-                                    <li>✅ <strong>WhatWhatsApp Web & API Integrations</strong> – Works seamlessly with existing business workflows
-                                    </li>
+                                    <li> <strong>Smart Search & Filters</strong> –  ENDkeywords, date, tags, sentiment </li>
+                                    <li> <strong>AI-PAI-Powered Insights</strong> –  Detects trends, complaints, and customer sentiment </li>
+                                    <li> <strong>Automated Reports </strong> – Sends daily/weekly chat summaries      </li>
+                                    <li> <strong>WhatWhatsApp Web & API Integrations</strong> – Works seamlessly with existing business workflows  </li>
                                 </ul>
                             </div>
 

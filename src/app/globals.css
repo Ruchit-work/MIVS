@@ -462,14 +462,6 @@ h6,
 }
 
 
-/*** Miscellaneous ***/
-@media (min-width: 991.98px) {
-  .facts {
-      position: relative;
-      margin-top: -75px;
-      z-index: 1;
-  }
-}
 
 .back-to-top {
   position: fixed;
@@ -492,11 +484,7 @@ h6,
   padding-left: 10px;
 }
 
-@media (min-width: 767.98px) {
-  .footer-about {
-      margin-bottom: -75px;
-  }
-}
+
 /* custom style */
 
 .set_logo{
@@ -565,46 +553,8 @@ h6,
 .set_height{
   margin-top:  30px !important;
 }
-
-
-
-
-/* Media Query */
-
-@media (max-width: 576px) {
-    .mobile_view img{
-      height: 300px;
-      width: auto;
-    }
-    .title small{
-      font-size: 12px !important;
-    }
-    .mobile_view_title{
-      text-align: center;
-      margin-top: 120px;
-    }
-    .section-title{
-      text-align: center;
-    }
-    .section-title h5{
-        font-size: 30px;
-    }
-    .section-title::before{
-      left: 100px;
-    }
-    .wow , .mobile_button{
-    
-      text-align: center;
-    }
-    .collapse:not(.show) {
-      display: none !important;
-    }
-    .map_height{
-      margin-top: 20px !important;
-    }
-}
 .footer_decor{
-  background-color: #06A3DA;
+  background-color: #07a1d9;
   padding: 20px;
   text-align: center;
 }
@@ -640,11 +590,7 @@ h6,
   width: 100%;
   margin: 0 20px;
 }
-@media (min-width: 1024px) {
- 
- .box_Width {
-    width: 35%;
-  }}
+
   /* Register page background */
  .login_main {
   margin: 0;
@@ -680,48 +626,6 @@ input[type="email"] {
   padding: 15px;
 }
 
-.flip-card {
-  perspective: 1000px; /* Creates 3D effect */
-  width: 100%;
-  height: auto;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: white;
-}
-
-.flip-card-back {
-  background-color: #007bff; /* Bootstrap primary color */
-  color: white;
-  transform: rotateY(180deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-
-
 /* Enable vertical scrolling for mobile screens */
 @media (max-width: 768px) {
   .scrollable-content {
@@ -743,5 +647,61 @@ input[type="email"] {
 
   .scrollable-content::-webkit-scrollbar-track {
       background: #f1f1f1;
+  }
+  .footer_MIVS{
+    display: block !important;
+  }
+}
+@media (min-width: 767.98px) {
+  .footer-about {
+      margin-bottom: -75px;
+  }
+}
+@media (min-width: 1024px) {
+ 
+  .box_Width {
+     width: 35%;
+   }}
+   /* Media Query */
+
+@media (max-width: 576px) {
+  .mobile_view img{
+    height: 300px;
+    width: auto;
+  }
+  .title small{
+    font-size: 12px !important;
+  }
+  .mobile_view_title{
+    text-align: center;
+    margin-top: 120px;
+  }
+  .section-title{
+    text-align: center;
+  }
+  .section-title h5{
+      font-size: 30px;
+  }
+  .section-title::before{
+    left: 100px;
+  }
+  .wow , .mobile_button{
+  
+    text-align: center;
+  }
+  .collapse:not(.show) {
+    display: none !important;
+  }
+  .map_height{
+    margin-top: 20px !important;
+  }
+}
+
+/*** Miscellaneous ***/
+@media (min-width: 991.98px) {
+  .facts {
+      position: relative;
+      margin-top: -75px;
+      z-index: 1;
   }
 }

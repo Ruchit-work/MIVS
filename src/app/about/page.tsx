@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 export default function About()
 {
     return <>
@@ -6,11 +7,11 @@ export default function About()
         <div className="container py-5">
             <div className="row g-5">
                 <div className="col-lg-7">
-                    <div className="section-title position-relative pb-3 mb-5">
+                    <div className="section-title position-relative pb-3 mb-4">
                         <h5 className="fw-bold text-primary text-uppercase">About Us</h5>
                         <h1 className="mb-0">The Best IT Solution With  Years of Experience</h1>
                     </div>
-                    <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <p className="mb-4 text-justify">MIVS Software is at the forefront of innovative IT solutions, leveraging years of industry experience to deliver: cutting-edge software products. Designed with precision and user-centricity, MIVS offers robust solutions that streamline operations, enhance productivity, and empower businesses to achieve their strategic objectives. Whether you're looking to optimize your workflows, secure your data, or expand your technological capabilities, MIVS Software is your trusted partner in navigating the complexities of the digital landscape.</p>
                     <div className="row g-0 mb-3">
                         <div className="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                             <h5 className="mb-3"><i className="fa fa-check text-primary me-3"></i>Award Winning</h5>
@@ -31,7 +32,7 @@ export default function About()
                         </div>
                     </div>
                     <div className="mobile_button">
-                        <a href="" className="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
+                    <Link href="/contact"><span className="btn btn-primary py-3 px-5 mt-3 wow zoomIn">Request A Quote</span></Link>   
                     </div>            
                 </div>
                 <div className="col-lg-5" >

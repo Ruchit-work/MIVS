@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "bootstrap": "^5.0.1",
+    "bootstrap": "^5.3.3",
     "express": "^4.21.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.7.1",

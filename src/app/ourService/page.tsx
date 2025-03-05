@@ -32,14 +32,14 @@ export default function OurSevice() {
                 <div className="col-md-6 col-12">
                   <h2 className="title">
                     <span>
-                      <strong>Machine </strong>Learning
-                      <small>Acquire artificial intelligence or statics based solutions for your work using Python programming</small>
+                      <strong> Software</strong> Development 
+                      <small> End-to-end development: custom apps, web, mobile, and AI solutions for business growth.</small>
                     </span>
                   </h2>
                 </div>
                 <div className="col-md-6 col-12">
                     <div className="text-center">  
-                      <Image src="/img/Machine-Learning.png"  width={250} height={240}  alt=""/>
+                      <Image src="/img/software_dev.png"  width={250} height={240}  alt=""/>
                     </div>
                 </div>
               </div>
@@ -48,15 +48,15 @@ export default function OurSevice() {
               <div className="service_box row">
                   <div className="col-md-6 col-12">
                     <div className="text-center">
-                        <Image src="/img/Website-Speed-Optimization.png"  width={250} height={240}  alt=""/>
+                        <Image src="/img/devops_1.png"  width={250} height={240}  alt=""/>
                     </div>
                   </div>  
 
                 <div className="col-md-6 col-12">
                   <h2 className="title">
                     <span>
-                      <strong>Website Speed </strong> Optimization
-                      <small>Load your website faster to enhance the user experience</small>
+                      <strong>DevOps  </strong> Services
+                      <small>Streamline development, CI/CD, monitoring, security for faster and reliable software delivery.</small>
                     </span>
                   </h2>
                 </div>
@@ -67,19 +67,19 @@ export default function OurSevice() {
             <div className="col-md-6 col-12">
                   <h2 className="title">
                     <span>
-                      <strong>Machine </strong>Learning
-                      <small>Acquire artificial intelligence or statics based solutions for your work using Python programming</small>
+                      <strong>Cloud  </strong>Services
+                      <small>Enhance scalability with cloud migration, security, and infrastructure management for seamless digital transformation.</small>
                     </span>
                   </h2>
                 </div>
                 <div className="col-md-6 col-12">
                     <div className="text-center">
-                          <Image src="/img/Machine-Learning.png"  width={250} height={240}  alt=""/>
+                          <Image src="/img/cloudservices.png"  width={250} height={240}  alt=""/>
                     </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 set_height">
+            <div className="col-md-6 set_height mx-auto">
               <div className="service_box row">
                   <div className="col-md-6 col-12">
                     <div className="text-center">
@@ -89,28 +89,11 @@ export default function OurSevice() {
                 <div className="col-md-6 col-12">
                   <h2 className="title">
                     <span>
-                      <strong>Website Speed </strong> Optimization
-                      <small>Load your website faster to enhance the user experience</small>
+                      <strong>Enterprise </strong>  Solutions
+                      <small>ERP System Implementation and Custom CRM Solutions</small>
                     </span>
                   </h2>
                 </div>
-              </div>
-            </div>
-            <div className="col-md-6 set_height">
-            <div className="service_box row">
-                <div className="col-md-6 col-12">
-                  <h2 className="title">
-                    <span>
-                      <strong>Website Speed </strong> Optimization
-                      <small>Load your website faster to enhance the user experience</small>
-                    </span>
-                  </h2>
-                </div>
-                <div className="col-md-6 col-12">
-                      <div className="text-center">
-                        <Image src="/img/Website-Speed-Optimization.png"  width={250} height={240}  alt=""/>
-                      </div>
-                  </div>
               </div>
             </div>
         </div>
